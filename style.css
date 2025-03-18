@@ -52,6 +52,7 @@ button {
   font-size: 16px;
   cursor: pointer;
   border-radius: 40px;
+  color: #fff;
 }
 ul li {
   list-style: none;
@@ -59,4 +60,8 @@ ul li {
   padding: 12px 8px 12px 50px;
   user-select: none;
   cursor: pointer;
+}
+
+ul li.checked {
+  color: #4e085f;
 }
